@@ -9,5 +9,5 @@ class TestMath:
         assert case2 % 2 == 0
 
     def test_three(self):
-        case3 = "ThisIsAlphanumeric"
+        case3 = "ThisIs Alphanumeric"
         assert case3.isalnum()
