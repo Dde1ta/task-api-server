@@ -11,3 +11,7 @@ async def root():
 @app.get("/hello/{name}")
 async def say_hello(name: str):
     return {"message": f"Hello {name}"}
+
+@app.get("/maker")
+async def maker():
+    return {"name": "D_delta", "place": "India"}
