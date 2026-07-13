@@ -12,6 +12,7 @@ async def root():
 async def say_hello(name: str):
     return {"message": f"Hello {name}"}
 
+
 @app.get("/maker")
 async def maker():
     return {"name": "D_delta", "place": "India"}
